@@ -1,0 +1,72 @@
+
+/*      Grid      */
+
+.container {
+  padding: 0 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $clr-col1;
+}
+
+.theme.col-2 {
+  background-color:$clr-col2;
+}
+
+.theme.col-3 {
+  background-color: $clr-col3;
+}
+
+.theme.col-4 {
+  background-color: $clr-col4;
+}
+
+.theme.col-5 {
+  background-color: $clr-col5;
+}
+
+.theme.col-6 {
+  background-color: $clr-col6;
+}
+
+.theme.col-7 {
+  background-color: $clr-col7;
+}
+
+.theme.col-8 {
+  background-color: $clr-col8;
+}
+
+.theme.col-9 {
+  background-color: $clr-col9;
+}
+
+.theme.col-10 {
+  background-color: $clr-col10;
+}
+
+.theme.col-11 {
+  background-color: $clr-col11;
+}
+
+.theme.col-12 {
+  background-color: $clr-col12;
+}
+
+.card {
+  flex-basis: 100%;
+}

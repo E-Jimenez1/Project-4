@@ -1,0 +1,19 @@
+
+/*      Images      */
+
+.img-avatar {
+  @include display-margin;
+  @include margin-maxwidth; 
+  max-height: 100%;
+}
+
+.img-frame {
+  @extend .img-avatar;
+  padding: 13px;
+  border: 1px solid $img-bdr;
+}
+
+.img-logo {
+  @extend .img-avatar;
+}
+  

@@ -1,0 +1,43 @@
+
+/*          Base Colors         */
+
+$primary-color: #58e1c1;
+$secondary-color: #51ddfc;
+$txt-color: #777;
+$white: #fff;
+$img-bdr: #ccc;
+
+
+/*          Font Weights        */
+$font-reg: 300;
+$font-hvy: 700;
+
+
+/*          Button Colors       */
+
+$default: $secondary-color;
+$success: #63cc82;
+$error: #e4757a;
+$warning: #fd7856;
+$info: #927BC1;
+
+
+/*        Grid Button Colors    */
+
+$clr-col1: $info;
+$clr-col2: $warning;
+$clr-col3: #deb2ee;
+$clr-col4: #7ee6fd;
+$clr-col5: #88d9a0;
+$clr-col6: #4da2bb;
+$clr-col7: #ec9fa3;
+$clr-col8: #fd9f85;
+$clr-col9: $error;
+$clr-col10: $success;
+$clr-col11: $secondary-color;
+$clr-col12: #80e8d1;
+
+
+/*    Media Query Breakpoint   */
+
+$non-mobile: 768px;
