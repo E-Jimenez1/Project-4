@@ -65,6 +65,11 @@ function printQuote() {
     <p class="quote">${print.quote} </p>
     <p class="source">${print.source}
   `;
+
+  /***
+  * checks object for citation, year and tags, completes html literal
+  ***/ 
+
   if(print.citation){
     fullQuote += `<span class = "citation">${print.citation}</span>`;
   }
